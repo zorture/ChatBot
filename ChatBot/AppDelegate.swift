@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  HelpBot
+//  ChatBot
 //
 //  Created by Kanwar Zorawar Singh Rana on 6/6/17.
-//  Copyright © 2017 Kranti. All rights reserved.
+//  Copyright © 2017 Kanwar Zorawar Singh Rana. All rights reserved.
 //
 
 import UIKit

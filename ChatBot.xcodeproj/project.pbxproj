@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9BEF3371EE7771D002A0AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEF3361EE7771D002A0AFD /* AppDelegate.swift */; };
-		B9BEF3391EE7771D002A0AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEF3381EE7771D002A0AFD /* ViewController.swift */; };
-		B9BEF33C1EE7771D002A0AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BEF33A1EE7771D002A0AFD /* Main.storyboard */; };
-		B9BEF33E1EE7771D002A0AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BEF33D1EE7771D002A0AFD /* Assets.xcassets */; };
-		B9BEF3411EE7771D002A0AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BEF33F1EE7771D002A0AFD /* LaunchScreen.storyboard */; };
+		B94B59B51F251A0700961C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B59AA1F251A0700961C20 /* AppDelegate.swift */; };
+		B94B59B61F251A0700961C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94B59AB1F251A0700961C20 /* Assets.xcassets */; };
+		B94B59B71F251A0700961C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94B59AC1F251A0700961C20 /* LaunchScreen.storyboard */; };
+		B94B59B81F251A0700961C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94B59AE1F251A0700961C20 /* Main.storyboard */; };
+		B94B59BA1F251A0700961C20 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B94B59B11F251A0700961C20 /* Info.plist */; };
+		B94B59BB1F251A0700961C20 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B59B21F251A0700961C20 /* TableCell.swift */; };
+		B94B59BC1F251A0700961C20 /* TypingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B59B31F251A0700961C20 /* TypingTableCell.swift */; };
+		B94B59BD1F251A0700961C20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B59B41F251A0700961C20 /* ViewController.swift */; };
+		B9B1BF151F2534EA00A3B8B0 /* ChatBotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B1BF141F2534EA00A3B8B0 /* ChatBotVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9BEF3331EE7771D002A0AFD /* HelpBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9BEF3361EE7771D002A0AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9BEF3381EE7771D002A0AFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B9BEF33B1EE7771D002A0AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B9BEF33D1EE7771D002A0AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9BEF3401EE7771D002A0AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9BEF3421EE7771D002A0AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94B59AA1F251A0700961C20 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B94B59AB1F251A0700961C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94B59AD1F251A0700961C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B94B59AF1F251A0700961C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B94B59B11F251A0700961C20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94B59B21F251A0700961C20 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		B94B59B31F251A0700961C20 /* TypingTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypingTableCell.swift; sourceTree = "<group>"; };
+		B94B59B41F251A0700961C20 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9B1BF141F2534EA00A3B8B0 /* ChatBotVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBotVC.swift; sourceTree = "<group>"; };
+		B9BEF3331EE7771D002A0AFD /* ChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +42,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B94B59A91F251A0700961C20 /* ChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				B94B59AA1F251A0700961C20 /* AppDelegate.swift */,
+				B94B59AB1F251A0700961C20 /* Assets.xcassets */,
+				B94B59AC1F251A0700961C20 /* LaunchScreen.storyboard */,
+				B94B59AE1F251A0700961C20 /* Main.storyboard */,
+				B9B1BF141F2534EA00A3B8B0 /* ChatBotVC.swift */,
+				B94B59B21F251A0700961C20 /* TableCell.swift */,
+				B94B59B31F251A0700961C20 /* TypingTableCell.swift */,
+				B94B59B41F251A0700961C20 /* ViewController.swift */,
+				B94B59B11F251A0700961C20 /* Info.plist */,
+			);
+			path = ChatBot;
+			sourceTree = "<group>";
+		};
 		B9BEF32A1EE7771D002A0AFD = {
 			isa = PBXGroup;
 			children = (
-				B9BEF3351EE7771D002A0AFD /* HelpBot */,
+				B94B59A91F251A0700961C20 /* ChatBot */,
 				B9BEF3341EE7771D002A0AFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +69,17 @@
 		B9BEF3341EE7771D002A0AFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEF3331EE7771D002A0AFD /* HelpBot.app */,
+				B9BEF3331EE7771D002A0AFD /* ChatBot.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B9BEF3351EE7771D002A0AFD /* HelpBot */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEF3361EE7771D002A0AFD /* AppDelegate.swift */,
-				B9BEF3381EE7771D002A0AFD /* ViewController.swift */,
-				B9BEF33A1EE7771D002A0AFD /* Main.storyboard */,
-				B9BEF33D1EE7771D002A0AFD /* Assets.xcassets */,
-				B9BEF33F1EE7771D002A0AFD /* LaunchScreen.storyboard */,
-				B9BEF3421EE7771D002A0AFD /* Info.plist */,
-			);
-			path = HelpBot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9BEF3321EE7771D002A0AFD /* HelpBot */ = {
+		B9BEF3321EE7771D002A0AFD /* ChatBot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9BEF3451EE7771D002A0AFD /* Build configuration list for PBXNativeTarget "HelpBot" */;
+			buildConfigurationList = B9BEF3451EE7771D002A0AFD /* Build configuration list for PBXNativeTarget "ChatBot" */;
 			buildPhases = (
 				B9BEF32F1EE7771D002A0AFD /* Sources */,
 				B9BEF3301EE7771D002A0AFD /* Frameworks */,
@@ -79,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = HelpBot;
+			name = ChatBot;
 			productName = HelpBot;
-			productReference = B9BEF3331EE7771D002A0AFD /* HelpBot.app */;
+			productReference = B9BEF3331EE7771D002A0AFD /* ChatBot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9BEF32E1EE7771D002A0AFD /* Build configuration list for PBXProject "HelpBot" */;
+			buildConfigurationList = B9BEF32E1EE7771D002A0AFD /* Build configuration list for PBXProject "ChatBot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9BEF3321EE7771D002A0AFD /* HelpBot */,
+				B9BEF3321EE7771D002A0AFD /* ChatBot */,
 			);
 		};
 /* End PBXProject section */
@@ -123,9 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BEF3411EE7771D002A0AFD /* LaunchScreen.storyboard in Resources */,
-				B9BEF33E1EE7771D002A0AFD /* Assets.xcassets in Resources */,
-				B9BEF33C1EE7771D002A0AFD /* Main.storyboard in Resources */,
+				B94B59BA1F251A0700961C20 /* Info.plist in Resources */,
+				B94B59B81F251A0700961C20 /* Main.storyboard in Resources */,
+				B94B59B61F251A0700961C20 /* Assets.xcassets in Resources */,
+				B94B59B71F251A0700961C20 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,28 +147,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BEF3391EE7771D002A0AFD /* ViewController.swift in Sources */,
-				B9BEF3371EE7771D002A0AFD /* AppDelegate.swift in Sources */,
+				B94B59BD1F251A0700961C20 /* ViewController.swift in Sources */,
+				B94B59BB1F251A0700961C20 /* TableCell.swift in Sources */,
+				B94B59B51F251A0700961C20 /* AppDelegate.swift in Sources */,
+				B94B59BC1F251A0700961C20 /* TypingTableCell.swift in Sources */,
+				B9B1BF151F2534EA00A3B8B0 /* ChatBotVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B9BEF33A1EE7771D002A0AFD /* Main.storyboard */ = {
+		B94B59AC1F251A0700961C20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9BEF33B1EE7771D002A0AFD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B9BEF33F1EE7771D002A0AFD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9BEF3401EE7771D002A0AFD /* Base */,
+				B94B59AD1F251A0700961C20 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B94B59AE1F251A0700961C20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94B59AF1F251A0700961C20 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,9 +276,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HelpBot/Info.plist;
+				INFOPLIST_FILE = ChatBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xorture.HelpBot;
+				PRODUCT_BUNDLE_IDENTIFIER = xorture.ChatBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,9 +288,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HelpBot/Info.plist;
+				INFOPLIST_FILE = ChatBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xorture.HelpBot;
+				PRODUCT_BUNDLE_IDENTIFIER = xorture.ChatBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9BEF32E1EE7771D002A0AFD /* Build configuration list for PBXProject "HelpBot" */ = {
+		B9BEF32E1EE7771D002A0AFD /* Build configuration list for PBXProject "ChatBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9BEF3431EE7771D002A0AFD /* Debug */,
@@ -294,13 +308,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9BEF3451EE7771D002A0AFD /* Build configuration list for PBXNativeTarget "HelpBot" */ = {
+		B9BEF3451EE7771D002A0AFD /* Build configuration list for PBXNativeTarget "ChatBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9BEF3461EE7771D002A0AFD /* Debug */,
 				B9BEF3471EE7771D002A0AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
