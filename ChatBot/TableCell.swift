@@ -16,32 +16,29 @@ class TableCell: UITableViewCell {
     override func awakeFromNib() {
         
         textLbl?.layer.masksToBounds = true
-        textLbl?.layer.cornerRadius = 5  
-        
-        /*
-        // Add rounded corners
-        let maskLayer = CAShapeLayer()
-        maskLayer.frame = (textView?.bounds)!
-        maskLayer.path = UIBezierPath(roundedRect: textView!.bounds, byRoundingCorners: .topRight , cornerRadii: CGSize(width: 25, height: 25)).cgPath
-        textView?.layer.mask = maskLayer
-*/
-        
+        textLbl?.layer.cornerRadius = 5
     }
     
     func reLayoutCell() {
-     //   self.layoutSubviews()
+        
+        let maskPath = UIBezierPath(roundedRect: (textView?.bounds)!,
+                                    byRoundingCorners: [.topLeft, .topRight, .bottomLeft],
+                                    cornerRadii: CGSize(width: 18.0, height: 0.0))
+        let maskLayer = CAShapeLayer()
+        maskLayer.path = maskPath.cgPath
+        textView?.layer.mask = maskLayer
+        
     }
 }
 
 class InsetLabel: UILabel {
     
     override func awakeFromNib() {
-        //self.frame = CGRect(x: super.frame.origin.x, y: super.frame.origin.y, width: super.frame.size.width+50, height: super.frame.size.height)
     }
     
     override func drawText(in rect: CGRect) {
         super.drawText(in: UIEdgeInsetsInsetRect(rect, UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)))
-        //super.frame = CGRect(x: super.frame.origin.x, y: super.frame.origin.y, width: super.frame.size.width+20, height: super.frame.size.height)
+
     }
     
 

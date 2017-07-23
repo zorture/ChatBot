@@ -71,7 +71,7 @@ extension ChatBotVC: UITableViewDataSource {
             cell = tableView.dequeueReusableCell(withIdentifier: "rightCell", for: indexPath) as! TableCell
         }
         cell.textLbl?.text = showTextAr[indexPath.row]
-        cell.reLayoutCell()
+        //cell.reLayoutCell()
         return cell
     }
     
